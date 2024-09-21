@@ -1,0 +1,54 @@
+#colors {
+    color: #161A30;
+    color: #31304D;
+    color: #B6BBC4;
+    color: #F0ECE5;
+}
+
+body {
+    background-image: url(images/bgwallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    font-family: 'Handjet', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #31304D;
+}
+
+#myTable {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+button {
+    font-size: 1em;
+    font-family: 'Handjet', sans-serif;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    background-color: #161A30;
+    color: #F0ECE5;
+    margin: 2px 2px;
+}
+
+#mySelection {
+    color: #161A30;
+    background-color: #F0ECE5;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#myLabel {
+    color: #161A30;
+    font-size: 20px;
+}

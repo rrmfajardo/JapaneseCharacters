@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Japanese Characters</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handjet&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Japanese Characters</h1>
+        <canvas id="myCanvas" width="500" height="350" style="border: 1px solid black"></canvas>
+        <br>
+        <label id="myLabel">Choose a character: </label>
+        <select id="mySelection">
+            <option value="hiragana">Hiragana</option>
+            <option value="katakana">Katakana</option>
+        </select>
+        <br>
+        <table id="myTable">
+            <thead>
+              <tr>
+                <th>N</th>
+                <th>W</th>
+                <th>R</th>
+                <th>Y</th>
+                <th>M</th>
+                <th>H</th>
+                <th>N</th>
+                <th>T</th>
+                <th>S</th>
+                <th>K</th>
+                <th>A</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button id="n">n</button></td>
+                <td><button id="wa">wa</button></td>
+                <td><button id="ra">ra</button></td>
+                <td><button id="ya">ya</button></td>
+                <td><button id="ma">ma</button></td>
+                <td><button id="ha">ha</button></td>
+                <td><button id="na">na</button></td>
+                <td><button id="ta">ta</button></td>
+                <td><button id="sa">sa</button></td>
+                <td><button id="ka">ka</button></td>
+                <td><button id="a">a</button></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><button id="ri">ri</button></td>
+                <td></td>
+                <td><button id="mi">mi</button></td>
+                <td><button id="hi">hi</button></td>
+                <td><button id="ni">ni</button></td>
+                <td><button id="chi">chi</button></td>
+                <td><button id="shi">shi</button></td>
+                <td><button id="ki">ki</button></td>
+                <td><button id="i">i</button></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><button id="ru">ru</button></td>
+                <td><button id="yu">yu</button></td>
+                <td><button id="mu">mu</button></td>
+                <td><button id="hu">hu</button></td>
+                <td><button id="nu">nu</button></td>
+                <td><button id="tsu">tsu</button></td>
+                <td><button id="su">su</button></td>
+                <td><button id="ku">ku</button></td>
+                <td><button id="u">u</button></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><button id="re">re</button></td>
+                <td></td>
+                <td><button id="me">me</button></td>
+                <td><button id="he">he</button></td>
+                <td><button id="ne">ne</button></td>
+                <td><button id="te">te</button></td>
+                <td><button id="se">se</button></td>
+                <td><button id="ke">ke</button></td>
+                <td><button id="e">e</button></td>
+              </tr>
+              <tr>
+                <td><button id="resetButton">Reset</button></td>
+                <td><button id="wo">wo</button></td>
+                <td><button id="ro">ro</button></td>
+                <td><button id="yo">yo</button></td>
+                <td><button id="mo">mo</button></td>
+                <td><button id="ho">ho</button></td>
+                <td><button id="no">no</button></td>
+                <td><button id="to">to</button></td>
+                <td><button id="so">so</button></td>
+                <td><button id="ko">ko</button></td>
+                <td><button id="o">o</button></td>
+              </tr>
+            </tbody>
+            </table>
+        <script src="script.js"></script>
+    </body>
+</html>
